@@ -1,5 +1,5 @@
 #include "main.h"
-#include "../crc32c/crc32c.h"
+#include "crc32c/crc32c.h"
 #include <rawrtcdc/main.h>
 #include <rawrtcc/code.h>
 #include <re.h>

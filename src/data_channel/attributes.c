@@ -1,5 +1,5 @@
 #include "channel.h"
-#include "../data_transport/transport.h"
+#include "data_transport/transport.h"
 #include <rawrtcdc/config.h>
 #include <rawrtcdc/data_channel.h>
 #include <rawrtcdc/data_channel_parameters.h>

@@ -1,10 +1,10 @@
 #include "transport.h"
-#include "../crc32c/crc32c.h"
-#include "../data_channel/channel.h"
-#include "../data_channel_parameters/parameters.h"
-#include "../data_transport/transport.h"
-#include "../main/main.h"
-#include "../sctp_capabilities/capabilities.h"
+#include "crc32c/crc32c.h"
+#include "data_channel/channel.h"
+#include "data_channel_parameters/parameters.h"
+#include "data_transport/transport.h"
+#include "main/main.h"
+#include "sctp_capabilities/capabilities.h"
 #include <rawrtcdc/config.h>
 #include <rawrtcdc/data_channel.h>
 #include <rawrtcdc/data_transport.h>

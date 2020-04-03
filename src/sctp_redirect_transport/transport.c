@@ -1,5 +1,5 @@
 #include "transport.h"
-#include "../crc32c/crc32c.h"
+#include "crc32c/crc32c.h"
 #include <rawrtcdc/config.h>
 #include <rawrtcdc/external.h>
 #include <rawrtcdc/sctp_redirect_transport.h>

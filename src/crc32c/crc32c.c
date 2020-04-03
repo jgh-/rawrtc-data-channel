@@ -1,6 +1,6 @@
 #include "crc32c.h"
 #include "software.h"
-#include "../main/main.h"
+#include "main/main.h"
 #include <rawrtcdc/config.h>
 #include <re.h>
 

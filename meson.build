@@ -91,7 +91,7 @@ configuration.set('RAWRTCDC_VERSION_PATCH', version_array[2])
 configuration.set('RAWRTC_DEBUG_LEVEL', get_option('debug_level'))
 
 # Includes
-include_dir = include_directories('include')
+include_dir = include_directories('include', 'src')
 subdir('include')
 
 # Sources
