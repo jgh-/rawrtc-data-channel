@@ -3,6 +3,10 @@
 #include <rawrtcc/code.h>
 #include <re.h>
 
+#if defined(HAVE_INTTYPES_H)
+#include <inttypes.h>
+#endif
+
 /**
  * Print debug information for SCTP capabilities.
  */

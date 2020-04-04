@@ -2,6 +2,14 @@
 #include <rawrtcc/code.h>
 #include <re.h>
 
+#if defined(HAVE_STDINT_H)
+#include <stdint.h>
+#endif
+
+#if defined(HAVE_STDBOOL_H)
+#include <stdbool.h>
+#endif
+
 // Dependencies
 struct rawrtc_data_channel_parameters;
 struct rawrtc_data_transport;
